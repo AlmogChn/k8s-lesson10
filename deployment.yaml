@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: superset
-        image: amancevice/superset
+        image: amancevice/superset:2.0.0
         ports:
         - containerPort: 80
