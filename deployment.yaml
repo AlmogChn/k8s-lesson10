@@ -11,10 +11,10 @@ spec:
     metadata:
       labels: 
         app: superset
-  spec:
-    containers:
-      -
-        name: superset
-        image: amancevice/superset
-        ports:
-        - containerPort: 80
+    spec:
+      containers:
+        -
+          name: superset
+          image: amancevice/superset
+          ports:
+          - containerPort: 80
