@@ -1,0 +1,7 @@
+apiVersion: app/v1
+kind: ConfigMap
+metadata: 
+  name: fullname-config
+data:
+  fullname: almog cohen
+## CREATED LOCALY VIA NANO 
