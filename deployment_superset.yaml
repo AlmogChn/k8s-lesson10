@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
         - 
-          image: "amancevice/superset:1.10.9"
+          image: "amancevice/superset:2.0.0"
           name: superset
           ports: 
             - 
