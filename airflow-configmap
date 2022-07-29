@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: secret-airflow
+  name: confmap-airflow
   labels:
-    name: secret-airflow
+    name: confmap-airflow
 spec:
   replicas: 1
   selector:
     matchLabels: 
-      name: secret-airflow
+      name: confmap-airflow
   template:
     metadata:
       labels:
-        name: secret-airflow
+        name: confmap-airflow
     spec:
       containers:
-      - name: secret-airflow
+      - name: confmap-airflow
         image: "puckel/docker-airflow:1.10.9"
         env:
         - name: api_key
