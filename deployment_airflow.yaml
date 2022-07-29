@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
         - 
-          image: "puckel/docker-airflow"
+          image: puckel/docker-airflow
           name: airflow
           ports: 
             - 
