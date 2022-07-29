@@ -13,8 +13,7 @@ spec:
         app: superset
     spec:
       containers:
-        -
-          name: superset
+        - name: superset
           image: amancevice/superset
           ports:
           - containerPort: 80
