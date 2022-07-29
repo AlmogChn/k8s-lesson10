@@ -3,7 +3,7 @@ kind: Deployment
 metadata: 
   name: airflow-deployment
 spec: 
-  replicas: 1
+  replicas: 2
   selector: 
     matchLabels: 
       app: airflow
@@ -14,7 +14,7 @@ spec:
     spec: 
       containers: 
         - 
-          image: puckel/docker-airflow:
+          image: puckel/docker-airflow
           name: airflow
           ports: 
             - 
