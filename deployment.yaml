@@ -2,8 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: superset-deployment
-  lables: 
-    app:superset
 spec:
   replicas: 2
   selector:
